@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+table{
+  border-collapse: collapse ;
+  max-width: 900px;
+  width: 100%;
+  margin: 1rem auto;
+
+}
+.table{
+  margin: 1rem auto;
+}
+table th,table td{
+  border: 1px solid #827d7d;
+  padding: 8px;
+}
+form{
+  /* border: 1px solid #827d7d; */
+  display: flex;  
+  flex-direction: column;
+  max-width: 900px;
+  width: 90%;
+  /* margin: 0 40%; */
+}
+input{
+  margin: 0.2rem 0;
+  padding: 8px;
+  border: 1px solid #827d7d;
+}
+h4{
+  margin: 0;
+}
+button{
+  margin: 1rem ;
+}
+
+h2{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.creation,.updation{
+  border: 1px solid #827d7d;
+  max-width: 250px;
+  padding: 8px;
+  margin-left: 2rem;
+}
+.operation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
